@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 1
     steps:
-      - run: sleep 120
+      - run: sleep 20    # set timeout to 120 seconds to confirm
