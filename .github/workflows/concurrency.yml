@@ -5,4 +5,4 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 120
+      - run: sleep 2    # set sleep to 120 seconds to confirm
