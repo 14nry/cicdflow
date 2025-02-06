@@ -1,0 +1,10 @@
+name: Add mask
+on: push
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    env:
+      PASSWORD: SuperSecretValue
+    step:
+      - run: echo "::add-mask::${PASSWORD}"
+      - run: choe "${PASSWORD}"
