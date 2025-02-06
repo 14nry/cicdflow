@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PASSWORD: SuperSecretValue
-    step:
+    steps:
       - run: echo "::add-mask::${PASSWORD}"
       - run: choe "${PASSWORD}"
